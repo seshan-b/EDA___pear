@@ -1,0 +1,42 @@
+{
+  "rooms": [
+    {
+      "id": 1,
+      "name": "Alpha-Centuria"
+    },
+    {
+      "id": 2,
+      "name": "Magic Door"
+    },
+    {
+      "id": 3,
+      "name": "Chocolate Factory"
+    },
+    {
+      "id": 4,
+      "name": "Fruit Bowl"
+    },
+    {
+      "id": 5,
+      "name": "Korean BBQ"
+    },
+    {
+      "id": 6,
+      "name": "Triple Shot"
+    },
+    {
+      "id": 7,
+      "name": "Heaven"
+    },
+    {
+      "id": 8,
+      "name": "Odessa"
+    },
+    {
+      "id": 9,
+      "name": "Lake Baikal",
+      "extra1": "Dante's 7th",
+      "extra2": "TheCluetrain"
+    }
+  ]
+}

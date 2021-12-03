@@ -1,0 +1,33 @@
+{
+  "name": "pear",
+  "version": "1.0.0",
+  "description": "-- software design",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index",
+    "test": "jest --watchAll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/horoeka-2021/pear.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/horoeka-2021/pear/issues"
+  },
+  "homepage": "https://github.com/horoeka-2021/pear#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.4"
+  },
+  "devDependencies": {
+    "cheerio": "^1.0.0-rc.10",
+    "eslint": "^8.0.1",
+    "eslint-config-eda": "^0.1.4",
+    "jest": "^27.3.1",
+    "nodemon": "^2.0.14",
+    "supertest": "^6.1.6"
+  }
+}

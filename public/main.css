@@ -1,0 +1,162 @@
+/* body {
+  background-color: #FFCCCC; 
+  font-family: 'Spirax', cursive;
+} */
+
+
+/* @import url("https://fonts.googleapis.com/css2?family=MuseoModerno:wght@100;200;300;400;500;600;700;800;900&family=Permanent+Marker&display=swap"); */
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body {
+    min-height: 100vh;
+    max-height: auto;
+
+    background: linear-gradient(rgba(82, 194, 52, 0.95), rgba(6, 23, 0, 0.95)), url(/../images/background.jpg) no-repeat;
+    width: 100%;
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    text-align: center;
+}
+
+.nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10rem;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 6rem;
+}
+
+.nav>.title {
+    font-size: 3rem;
+    color: rgba(255, 255, 255, 0.9);
+    padding: 0 2rem;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 3rem;
+}
+
+.nav>.title>span {
+    width: 3rem;
+    height: 3rem;
+}
+
+.nav-item {
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 2.5rem;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    margin-top: 20px;
+}
+
+.heading {
+    margin: auto;
+    width: 85%;
+    padding-top: 2.2rem;
+
+    color: rgba(255, 255, 255, 0.9);
+    border-bottom: 0.1rem solid rgba(255, 255, 255, 0.3);
+}
+
+.game-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 95%;
+    margin: auto;
+}
+
+.rooms {
+    width: 25rem;
+    border: 0.2rem solid rgba(255, 255, 255, 0.9);
+    height: 25rem;
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.9);
+    border-radius: 1rem;
+    font-size: 1.5rem;
+    background-color: rgba(255, 255, 255, 0.3);
+    text-align: center;
+    font-weight: 900;
+}
+
+.button-container {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    height: 10rem;
+    align-items: center;
+}
+
+.button-container>button {
+    height: 5rem;
+    width: 25rem;
+
+    font-size: 3rem;
+    color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(8, 192, 54, 0.3);
+    border-radius: 2rem;
+    border: none;
+}
+
+.button-container>button:hover {
+    font-size: calc(3rem * 1.1);
+    width: calc(25rem * 1.1);
+    padding: 1rem;
+    height: 8rem;
+
+    border: 0.2rem solid rgba(255, 255, 255, 0.3);
+}
+
+@media (max-width: 1200px) {
+    .rooms {
+        width: 15rem;
+        height: 15rem;
+    }
+}
+
+@media (min-width: 1300px) {
+    .rooms {
+        font-size: 3rem;
+        padding: 0;
+    }
+}

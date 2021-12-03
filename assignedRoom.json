@@ -1,0 +1,50 @@
+{
+  "rooms": [
+    {
+      "id": 1,
+      "name": "beanbag"
+      ,"assign1":"a"
+      ,"assign2":"b"
+    },
+    {
+      "id": 2,
+      "name": "beanbag"
+      ,"assign1":"a"
+      ,"assign2":"b"
+    },
+    {
+      "id": 3,
+      "name": "beanbag"
+      ,"assign1":"a"
+      ,"assign2":"b"
+    },
+    {
+      "id": 4,
+      "name": "beanbag"
+    },
+    {
+      "id": 5,
+      "name": "beanbag"
+    },
+    {
+      "id": 6,
+      "name": "beanbag"
+    },
+    {
+      "id": 7,
+      "name": "beanbag"
+    },
+    {
+      "id": 8,
+      "name": "beanbag"
+    },
+    {
+      "id": 9,
+      "name": "beanbag"
+    },
+    {
+      "id": 10,
+      "name": "beanbag"
+    }
+  ]
+}
